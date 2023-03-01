@@ -4,6 +4,7 @@ public class Account {
 	private String user;
 	private String pass;
 	private String name;
+	private int account_id;
 	private Recipe[] recipes;
 	
 	public Account(String user, String pass, String name, Recipe[] recipes) {
