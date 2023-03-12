@@ -45,7 +45,6 @@ public class DatabaseController {
 		String query = String.format("INSERT INTO user(name,user,pass) values('%s','%s','%s')", name, user, pass);
 		try(PreparedStatement state = con.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);){
 			state.execute();
-			state.ro
 			System.out.println("UPDATED DATABASE SUCCESS!");
 			return true;
 		} catch (SQLException e) {

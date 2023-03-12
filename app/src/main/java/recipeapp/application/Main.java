@@ -13,7 +13,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) throws Exception {
 		//Login Stage
 		primaryStage.setTitle("Recipe Maker");
-		Image icon = new Image(getClass().getResourceAsStream("/img/muffin.jpg"));
+		Image icon = new Image(Main.class.getClassLoader().getResourceAsStream("muffin.jpg"));
 		primaryStage.setScene(Login.loginScene());
 		primaryStage.getIcons().add(icon);
 		
