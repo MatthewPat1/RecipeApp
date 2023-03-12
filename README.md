@@ -18,3 +18,21 @@ Gradle including javafx example: https://www.youtube.com/watch?v=bRpGnCjJ0ro
 gradle.build to include javafx: https://github.com/openjfx/javafx-gradle-plugin
 
 gradle beginner course: https://www.youtube.com/watch?v=So0j4RnoKkU&t=2563s
+
+## Current Progress
+
+Added DB connection and wrote some functions for the future of retrieving and inserting data.
+
+Gradle implementation so it is easily packaged and built for when I'm using different machines.
+
+Created a login screen with a user and password section.
+
+<img src="https://user-images.githubusercontent.com/66543795/224520496-df29f92e-9fbb-4654-bf43-a968e3466468.png" width="250" height="250"/>
+
+
+
+
+
+
+
+
