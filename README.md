@@ -22,6 +22,7 @@ gradle beginner course: https://www.youtube.com/watch?v=So0j4RnoKkU&t=2563s
 ## Current Progress
 
 Added DB connection and wrote some functions for the future of retrieving and inserting data.
+  - For now using local DB connection assuming will need to be remote in future.
 
 Gradle implementation so it is easily packaged and built for when I'm using different machines.
 
