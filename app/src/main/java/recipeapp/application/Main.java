@@ -1,6 +1,6 @@
-package application;
+package recipeapp.application;
 	
-import gui.Login;
+import recipeapp.gui.Login;
 import javafx.application.Application;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;

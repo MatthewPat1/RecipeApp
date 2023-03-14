@@ -1,4 +1,4 @@
-package controller;
+package recipeapp.controller;
 
 public class Account {
 	private String user;

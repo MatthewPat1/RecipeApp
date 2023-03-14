@@ -9,6 +9,7 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'java'
+    id 'java-library'
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.0.13'
 }
@@ -42,8 +43,8 @@ test {
 
 jar {
     manifest {
-        attributes 'Main-class': 'application.Main'
+        attributes 'Main-class': 'recipeapp.application.Main'
     }
 }
 
-mainClassName='application.Main'
+mainClassName='recipeapp.application.Main'
