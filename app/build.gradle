@@ -43,8 +43,8 @@ test {
 
 jar {
     manifest {
-        attributes 'Main-class': 'application.Main'
+        attributes 'Main-class': 'recipeapp.application.Main'
     }
 }
 
-mainClassName='application.Main'
+mainClassName='recipeapp.application.Main'
